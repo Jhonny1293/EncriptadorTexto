@@ -1,0 +1,145 @@
+header{
+    font-size: 32px;
+    padding: 10px 90px 10px 90px;
+    font-weight: bolder;
+    background: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.area-encriptado{
+    width: auto;
+    height: 540px;
+    background: #eeeeee;
+}
+
+.texto-botones{
+    position: absolute;
+    margin: 50px 0 0 90px;
+}
+
+.ingresar-texto{
+    
+    font-size: 2em;
+    border-radius: 12px;
+    border: none;
+}
+
+.ingresar-texto::placeholder{
+    color: black;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.botones{
+    text-align: center;
+    padding: 20px 20px 20px;
+   
+    
+}
+
+.boton-encriptar{
+    padding: 15px 30px;
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+    background: #85CFBF;
+    border-radius: 8px; 
+    border: none;
+     
+}
+
+.boton-encriptar:hover{
+    background: #6aa598;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.boton-desencriptar{
+    padding: 15px 20px;
+    font-size: 1em;
+    font-weight: bolder;
+    color: black;
+    background: #aabebb;
+    border-radius: 8px; 
+    border: none;
+    margin-left: 50px;
+}
+
+.boton-desencriptar:hover{
+    background: #92a3a1;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.encriptar-desencriptar{
+    width: 390px;
+    height: 350px;
+    margin: 50px 0 20px 64%;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 12px;
+    word-wrap: break-word;
+}
+
+.encriptar-desencriptar p{
+    margin: 80px 0 20px 0;
+}
+
+.encriptar-desencriptar img{
+    width: 150px;
+    border-radius: 80px;
+    box-shadow: #85CFBF;
+}
+
+.imagen-copiar{
+    background: #BED4D0;
+    padding: 10px 20px;
+    margin: 0 0 0 1190px;
+}
+
+.boton-copiar{
+    font-weight: bolder;
+    color: black;
+    margin: 0 0 10px 1190px;
+}
+
+.boton-copiar:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+footer{
+   padding:11px 90px;
+   background: rgb(128, 125, 125);
+   text-align: center;
+}
+
+footer p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left:  440px;
+    position: absolute;
+}
+
+.botones-redes {
+    margin-left: 250px;
+  }
+  
+i{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 5px 10px;
+}
+
+.boton-linkedin{
+    margin-right: 10px;
+}
