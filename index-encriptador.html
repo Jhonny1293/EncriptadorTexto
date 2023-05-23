@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=decive-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style-encriptadorSN.css">
+    <link href="https://fonts.google.com/share?selection.family=Montserrat:wght@300" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Encriptador de Texto</h1>
+
+    </header>
+
+    <main class="area-encriptado">
+
+        <div class="texto-botones">
+
+            <textarea id="texto" cols="45" rows="11" required class="ingresar-texto" placeholder="Ingrese aquí el texto deseado"></textarea>
+
+            <div class="botones">
+
+                <input id="encriptar" type="submit" value="ENCRIPTAR" class="boton-encriptar" onClick="encriptar()">
+                <input id="desencriptar" type="submit" value="DESENCRIPTAR" class="boton-desencriptar" onClick="desencriptar()">
+
+            </div>
+       
+        </div>
+
+        <div class="encriptar-desencriptar">
+            <ul >
+                <li id="caja-resultado">
+                    <p>Ningún mensaje fue encontrado</p>
+                    <img src="imagenes/protegido.png">
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <img class="imagen-copiar" src="imagenes/Vector.png">
+            <input id="copiar-texto" class="boton-copiar" type="submit" value=COPIAR onClick="copiar()">
+        </div>
+
+    </main>
+
+</body>
+
+<script src="script-encriptadorSN.js"></script>
+
+<footer>
+    <p class="copyright">&#169; Jhonatan Restrepo Montoya</p>
+    <div class="botones-redes">
+        <a href="https://www.linkedin.com/in/jhonatan-restrepo-montoya/" class="boton-linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Jhonny1293" class="boton-github"><i class="fab fa-github"></i></a>
+      </div>
+    
+    <a></a>
+</footer>
+
+</html>
